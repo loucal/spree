@@ -99,15 +99,15 @@ Disallow: /users
       gems = {}
 
       if @install_blue_theme
-        gems['spree_blue_theme'] = { :git => 'git@github.com:spree/spree_blue_theme.git',
+        gems['spree_blue_theme'] = { :git => 'git://github.com/spree/spree_blue_theme.git',
                                      :ref => '10666404ccb3ed4a4cc9cbe41e822ab2bb55112e' }
       end
 
       if @install_default_gateways
-        gems['spree_usa_epay'] = { :git => 'git@github.com:spree/spree_usa_epay.git',
+        gems['spree_usa_epay'] = { :git => 'git://github.com/spree/spree_usa_epay.git',
                                    :ref => '01db40c31e6933c7744403ce13536a34167165eb' }
 
-        gems['spree_skrill'] = { :git => 'git@github.com:spree/spree_skrill.git',
+        gems['spree_skrill'] = { :git => 'git://github.com/spree/spree_skrill.git',
                                  :ref => '6743bcbd0146d1c7145d6befc648005d8d0cf79a' }
       end
 
